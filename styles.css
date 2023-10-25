@@ -1,0 +1,656 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background: rgb(0 100 0 / 0.1) !important;
+  outline: 2px solid gray; */
+}
+
+:root {
+  --color-primary: #020148;
+  --font-family: "Roboto Slab", serif;
+}
+ 
+.topnavbar {
+  width: 100%;
+  height: 3rem;
+  background-color: #a9a9a926;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.top-icons {
+  /* margin-left: .5rem; */
+  display: flex;
+}
+
+.top-icons i {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.other-links {
+  /* margin-right: .5rem; */
+  display: inline-block;
+}
+
+.other-links i {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+#btn-login {
+  /* width: 100px; */
+  /* padding: 0.5rem 0.5rem; */
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+  border-radius: 5px;
+  height: 1.8rem;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btn-login a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: 0.5s ease;
+}
+#btn-login a:hover {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+#btn-login:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+#btn-signup {
+  /* width: 100px; */
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+  border-radius: 5px;
+  height: 3ch;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btn-signup a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: 0.5s ease;
+}
+#btn-signup a:hover {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+#btn-signup:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+/* navbar */
+#navbar {
+  background-color: var(--color-primary);
+  font-size: 1rem;
+  font-family: var(--font-family);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#navbar .nav-link {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  /* transition:0.5sec ease ; */
+}
+.dropdown-menu li a {
+  font-weight: bold;
+}
+/* navbar toggler icon */
+.navbar-toggler-icon {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* home-section */
+.home-section {
+  width: 100%;
+}
+
+.home .content {
+  flex: 1 1 400px;
+}
+
+.home,
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+/* home-section end*/
+.navbar-brand-logo img{
+  width: 100px;
+  height: auto;
+  margin-right: 0.5rem;
+  border: 2px solid #fff;
+}
+
+
+.home img {
+  flex: inherit;
+  max-width: 100%;
+}
+
+.home .content {
+  flex: 1 1 400px;
+  margin-top: 1.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.home h3 {
+  font-size: 3.2rem;
+  text-shadow: 1px 1px 1px black;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.content h3 span {
+  font-size: 4rem;
+}
+
+/* .content p {
+
+} */
+
+/* banner button */
+#shopnow-btn {
+  text-decoration: none;
+  border: 2px solid var(--color-primary);
+  font-weight: bold;
+  cursor: pointer;
+  width: 10rem;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  /* color: var(--color-primary); */
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  /* color: var(--color-primary); */
+  /* background-color: var(--color-primary); */
+  /* height: 5rem; */
+}
+
+#shopnow-btn:hover{
+background-color: var(--color-primary);
+color: #fff;
+}
+
+/* banner button end */
+
+#top-cards {
+  font-family: var(--font-family);
+}
+
+#top-cards h5 {
+  font-size: 1.75rem;
+}
+
+#top-cards p {
+  color: #747474;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+/* banner */
+.banner {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner .banner-image {
+  max-width: 100%;
+  display: block;
+}
+/* banner end */
+
+/* banner content */
+.banner-content {
+  position: absolute;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  width: 50%;
+}
+/* banner content end */
+
+
+
+/* banner2 */
+.banner2 {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner2 .banner-image {
+  max-width: 100%;
+  display: block;
+}
+/* banner2 end */
+
+/* banner content */
+.banner-content2 {
+  position: absolute;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  width: 50%;
+}
+/* banner content end */
+
+/* banner button */
+
+/*Product cards  */
+#product-cards {
+  font-family: var(--font-family);
+  /* margin-top: 6.25rem; */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#product-cards .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#product-cards img {
+  display: block;
+  object-fit: cover;
+}
+
+#product-cards h1 {
+  margin-top: 30px;
+  color: var(--color-primary);
+  text-shadow: 1px 1px 1px #000;
+}
+
+#product-cards h3 {
+  letter-spacing: 0.1rem;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+#product-cards p {
+  font-size: 1.3rem;
+}
+
+.shopping-baskets {
+  margin-left: 1rem;
+}
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  scale: 1.15;
+}
+
+#viewbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  font-weight: bold;
+  transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); /* Use cubic-bezier for a custom easing */
+  text-decoration: none;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+#viewbtn:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.products-container {
+  font-family: var(--font-family);
+}
+
+.products-container h3 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+.products-container p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+#services {
+  font-family: var(--font-family);
+  margin-top: 3rem;
+}
+
+#services i {
+  color: var(--color-primary);
+}
+
+#services h2 {
+  color: var(--color-primary);
+}
+
+#services p {
+  font-size: 1.5rem;
+}
+
+/*Product cards end */
+
+#footer {
+  font-family: var(--font-family);
+}
+
+#footer .footer-logo-left {
+  max-width: 100%;
+  width: 20rem;
+}
+
+#footer h3 {
+  color: var(--color-primary);
+}
+
+#footer p {
+  font-size: 1.5rem;
+}
+
+#footer ul {
+  font-size: 1.3rem;
+}
+
+#footer #social-links i {
+  color: var(--color-primary);
+  margin-left: 3rem;
+}
+
+.arrow {
+  position: fixed;
+  /* background-color: var(--color-primary); */
+  border: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 100px;
+  text-decoration: none;
+  align-items: center;
+  line-height: 50px;
+}
+
+/* login page */
+.login {
+  font-family: var(--font-family);
+}
+
+#side1 {
+  background-color: var(--color-primary);
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+#side1 h3 {
+  color: #fff;
+}
+
+#side1 p {
+  color: #fff;
+}
+
+#side1 #btn {
+  border: 2px solid #fff;
+  width: 6rem;
+  height: 2.5rem;
+  text-align: center;
+  align-items: center;
+  background-color: #020148;
+}
+
+#side1 a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+/* #side2{
+
+  } */
+
+#side2 h3 {
+  color: #000;
+  font-weight: bold;
+}
+
+#side2 .user-info > input {
+  outline: none;
+  font-size: 1.5rem;
+  text-align: start;
+  text-align: start;
+  padding: 0 .5rem;
+  
+}
+
+#side2 .user-info input{
+  width: 30rem;
+  margin-bottom: 1rem;
+  
+}
+
+#side2 p {
+  font-size: 1.2rem;
+}
+
+#side2 .icons {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+#side2 .login-btn {
+  padding: 5px;
+  border: 2px solid #fff;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  background-color: #020148;
+  font-size: 1.5rem;
+}
+
+#side2 a{
+  text-decoration: none;
+  color: #fff;
+}
+/* login page end here */
+
+
+
+
+
+
+
+/* media queries for responsiveness */
+@media (max-width: 500px) {
+  .home h3 {
+    font-size: 2rem;
+  }
+
+  .home .content p {
+    font-size: 1.2rem;
+    color: #000;
+  }
+
+  #top-cards p {
+    font-size: 1.2rem;
+  }
+
+  .container p {
+    font-size: 0.7rem;
+  }
+
+  .banner {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .banner-content {
+  font-size: .9rem;
+  /* margin-bottom: 3rem; */
+  width: 50%;
+
+  }
+
+  #shopnow-btn {
+    border: 2px solid var(--color-primary);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10rem;
+    padding: 0.3rem 1rem;
+    background-color: var(--color-primary);
+    margin-top: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  /* banner2 */
+  .banner-content2 {
+    font-size: .9rem;
+    /* margin-bottom: 3rem; */
+    width: 50%;
+  
+    }
+  
+    .shopnow-btn2 {
+      border: 2px solid var(--color-primary);
+      font-weight: bold;
+      cursor: pointer;
+      width: 10rem;
+      padding: 0.3rem 1rem;
+      /* color: var(--color-primary); */
+      background-color: var(--color-primary);
+      /* height: 5rem; */
+      margin-top: 1.1rem;
+  
+    }
+  
+    .shopnow-btn2 a{
+      text-decoration: none;
+      /* color: var(--color-primary); */
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  /* banner2 */
+
+  .products-container p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  #product-cards p {
+    font-size: 1.1rem;
+  }
+
+  #product-cards h1 {
+    margin-top: 4rem;
+  }
+
+  #services i {
+    font-size: 2.5rem;
+  }
+
+  #footer .footer-logo-left {
+    max-width: 100%;
+    width: 10rem;
+  }
+
+  #footer p {
+    font-size: 1.2rem;
+  }
+
+  #footer li {
+    font-size: 1.2rem;
+  }
+
+  #footer div > h3 {
+    margin-top: 3rem;
+  }
+
+  #footer #social-links i {
+    color: var(--color-primary);
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  /* login page form input */
+
+  #side2 .user-info input{
+    width: 15rem;
+    margin-bottom: 1rem;
+    
+    
+  }
+
+  #side2 .user-info > input {
+    outline: none;
+    font-size: 1.2rem;
+    text-align: start;
+    padding: 0 .5rem;
+    
+  }
+
+
+  /* cloth page */
+.content  .cloth-img{
+  width: 20rem;
+  height: 25rem;
+  margin-left: 25%;
+}
+  /* cloth page end here */
+}
+
