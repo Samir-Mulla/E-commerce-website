@@ -479,7 +479,7 @@
 /* login page end here */
 
 /* media queries for responsiveness */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home h3 {
     font-size: 2rem;
   }
