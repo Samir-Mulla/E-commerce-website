@@ -58,13 +58,6 @@
   transition: 0.5s ease;
 }
 
-.btn-login a:hover {
-  display: inline-block;
-  background-color: var(--color-primary);
-  color: #fff;
-  transition: 0.5s ease;
-}
-
 .btn-login:hover {
   background-color: var(--color-primary);
   color: #fff;
@@ -81,13 +74,6 @@
   cursor: pointer;
   text-decoration: none;
   color: var(--color-primary);
-  transition: 0.5s ease;
-}
-
-.btn-signup a:hover {
-  display: inline-block;
-  background-color: var(--color-primary);
-  color: #fff;
   transition: 0.5s ease;
 }
 
