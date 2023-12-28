@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background: rgb(0 100 0 / 0.1) !important;
-  outline: 2px solid gray; */
+  background: rgb(0 100 0 / 0.1) !important;
+  /* outline: 2px solid gray;  */
 }
 
 :root {
@@ -167,7 +167,7 @@
 } */
 
 /* banner button */
-#shopnow-btn {
+.shopnow-btn {
   text-decoration: none;
   border: 2px solid var(--color-primary);
   font-weight: bold;
@@ -183,7 +183,7 @@
   /* height: 5rem; */
 }
 
-#shopnow-btn:hover {
+.shopnow-btn:hover {
   background-color: var(--color-primary);
   color: #fff;
 }
@@ -416,7 +416,7 @@
   color: #fff;
 }
 
-#side1 #btn {
+#side1 .btn {
   border: 2px solid #fff;
   width: 6rem;
   height: 2.5rem;
@@ -513,7 +513,7 @@
     width: 50%;
   }
 
-  #shopnow-btn {
+  .shopnow-btn {
     border: 2px solid var(--color-primary);
     font-weight: bold;
     cursor: pointer;
